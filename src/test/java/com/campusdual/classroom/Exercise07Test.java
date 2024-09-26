@@ -36,7 +36,7 @@ class Exercise07Test {
     @DisplayName("Perform a search in a reverse list 10 first integers")
     void positionInAList() {
         Exercise07.positionInAList(8);
-        boolean find = this.outContent.toString().contains(" se encuentra en la posición: ");
+        boolean find = this.outContent.toString().contains(" se encuentra en la posicion: ");
         this.outContent.reset();
         assertTrue(find, "Number exist in list");
         Exercise07.positionInAList(20);
